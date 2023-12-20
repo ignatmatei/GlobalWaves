@@ -30,4 +30,3 @@ export const playlists: Playlist[] = [
         description: 'This is my first playlist'
     }
 ];
-// Path: fe/GlobalWaves/src/app/playlist.service.ts

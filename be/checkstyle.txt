@@ -1,0 +1,22 @@
+Starting audit...
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\Admin.java:35:44: '5' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\CommandRunner.java:770:20: '1900' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\CommandRunner.java:770:35: '2023' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\CommandRunner.java:773:21: '12' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\CommandRunner.java:776:19: '28' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\CommandRunner.java:779:19: '31' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\player\Player.java:19:38: '90' is a magic number. [MagicNumber]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\player\Player.java:170:32: Parameter time should be final. [FinalParameters]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\player\PlayerStats.java:23:44: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\player\PlayerStats.java:24:45: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\player\PlayerStats.java:25:49: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\player\PlayerStats.java:26:53: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\player\PlayerStats.java:27:43: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\player\PlayerStats.java:28:36: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\user\User.java:246:44: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\user\User.java:247:46: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\user\User.java:248:45: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\user\User.java:249:50: Inner assignments should be avoided. [InnerAssignment]
+[ERROR] C:\Users\andrei\Documents\GitHub\etapa2\.\src\app\user\User.java:250:54: Inner assignments should be avoided. [InnerAssignment]
+Audit done.
+Checkstyle ends with 19 errors.
