@@ -13,6 +13,20 @@ const items = [
         }
     },
     {
+        label: 'Favourite songs',
+        icon: 'pi pi-heart',
+        command: () => {
+            window.location.href = '/favourite-songs';
+        }
+    },
+    {
+        label: 'Settings',
+        icon: 'pi pi-cog',
+        command: () => {
+            window.location.href = '/settings';
+        }
+    },
+    {
         label: 'Log out',
         icon: 'pi pi-sign-out',
         command: () => {
