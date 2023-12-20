@@ -1,4 +1,5 @@
 <template>
+    <SearchBar />
     <div class="p-d-flex p-flex-column p-jc-center p-ai-center">
         <h1 class="p-m-0" style="text-align: center; margin-top: 6.5em;">Favourite Songs</h1>
         <Carousel :value="songs" :numVisible="3" :numScroll="1" :circular="true" >
@@ -29,6 +30,8 @@
 import Carousel from 'primevue/carousel';
 import { songs } from '../assets/songs';
 import {playlists} from '../assets/playlists';
+import SearchBar from '../components/SearchBar.vue';
+
 </script>
 <script lang="ts">
 </script>
