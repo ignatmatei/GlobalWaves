@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import SearchBar from './components/SearchBar.vue';
-import FavouriteSongs from './components/FavouriteSongs.vue';
+import FavouriteSongs from './pages/FavouriteSongs.vue';
+
 </script>
 
 <template>
