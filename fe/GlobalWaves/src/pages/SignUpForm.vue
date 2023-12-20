@@ -33,7 +33,8 @@
             <br />
             <div style="text-align: center">
                <a> Already have an account? </a>
-                <a> Log in here! </a>
+               <br />
+                <router-link to="log-in"> Log in here! </router-link>
             </div>
             <Button label="Sign up" />
         </template>

@@ -26,7 +26,8 @@
             <br />
             <div style="text-align: center">
                <a> Don't have an account already? </a>
-                <a> Sign up here! </a>
+               <br />
+                <router-link to="/">Sign up here! </router-link>
             </div>
             <Button label="Log in" />
         </template>
