@@ -1,6 +1,6 @@
 # GlobalWaves
 
-<img src ="fe/GlobalWaves/src/assetes/icon-1.png">
+<img src ="fe/GlobalWaves/src/assets/icon-1.png">
 
 ## Attempting to create an open-source alternative to Spotify
 
