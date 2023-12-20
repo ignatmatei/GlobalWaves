@@ -4,9 +4,10 @@ import HomePage from './pages/HomePage.vue';
 import LogInForm from './pages/LogInForm.vue';
 import SignUpForm from './pages/SignUpForm.vue';
 </script>
-
 <template>
-  <SignUpForm />
+    <router-view>
+      
+    </router-view>
 </template>
 
 <style scoped>
