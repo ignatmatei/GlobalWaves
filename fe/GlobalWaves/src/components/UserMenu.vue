@@ -1,13 +1,16 @@
 <template>
-    <Menu :model="items" popup :style="{width: '12em'}" />
-</template>
+   <div class="card flex justify-content-center">
+        <Menu :model="items" />
+    </div>
+   </template>
 
 <script setup lang="ts">
 import Menu from 'primevue/menu';
-const items = [
+import {ref} from 'vue';
+const items = ref([
     {
         label: 'Profile',
-        icon: 'pi pi-user',
+        icon: '../assets/user.svg',
         command: () => {
             window.location.href = '/profile';
         }
@@ -33,8 +36,20 @@ const items = [
             window.location.href = '/logout';
         }
     }
-];
+]);
+
 </script>
 
+<script lang="ts">
+</script>
 <style scoped>
+:deep(.p-menuitem-text) {
+    font-size: 1.5rem;
+    font-weight: 60;
+    color: rgb(31, 86, 187);
+    width: 80%;
+    text-align: left;
+    margin-left: 0em;
+}
 </style>
+

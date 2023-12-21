@@ -1,6 +1,10 @@
 <template>
     <SearchBar />
-    <div class="p-d-flex p-flex-column p-jc-center p-ai-center">
+    <div class="parent">
+     <div class="child">
+    <UserMenu  />
+    </div>
+    <div class="child">
         <h1 class="p-m-0" style="text-align: center; margin-top: 6.5em;">My unique playlists</h1>
         <Carousel :value="playlists" :numVisible="3" :numScroll="1" :circular="true" >
             <template #item="{data : playlist}">
@@ -12,15 +16,20 @@
             </template>
         </Carousel>
     </div>
+    </div>
 </template>
 
 <script setup lang="ts">
 import SearchBar from '../components/SearchBar.vue';
 import Carousel from 'primevue/carousel';
 import {playlists} from '../assets/playlists';
+import UserMenu from '../components/UserMenu.vue';
 </script>
 
 <style scoped>
+.child {
+    display: inline-block;
+}
 .item {
     height: 14em;
     text-align: center;

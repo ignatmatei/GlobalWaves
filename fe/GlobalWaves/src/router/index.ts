@@ -3,6 +3,7 @@ import EntryPoint from '../pages/EntryPoint.vue'
 import SignUpForm from '../pages/SignUpForm.vue'
 import LogInForm from '../pages/LogInForm.vue'
 import HomePage from '../pages/HomePage.vue'
+import FavouriteSongs from '../pages/FavouriteSongs.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -25,6 +26,11 @@ const router = createRouter({
       path: '/home',
       name: 'home',
       component: HomePage
+    },
+    {
+      path: '/favourite-songs',
+      name: 'favourite-songs',
+      component: FavouriteSongs
     }
     // {
     //   path: '/about',
