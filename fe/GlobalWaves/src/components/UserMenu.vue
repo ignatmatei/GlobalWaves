@@ -10,28 +10,28 @@ import {ref} from 'vue';
 const items = ref([
     {
         label: 'Profile',
-        icon: '../assets/user.svg',
+        icon: 'pi pi-fw pi-user',
         command: () => {
             window.location.href = '/profile';
         }
     },
     {
         label: 'Favourite songs',
-        icon: 'pi pi-heart',
+        icon: 'pi pi-fw pi-heart',
         command: () => {
             window.location.href = '/favourite-songs';
         }
     },
     {
         label: 'Settings',
-        icon: 'pi pi-cog',
+        icon: 'pi pi-fw pi-cog',
         command: () => {
             window.location.href = '/settings';
         }
     },
     {
         label: 'Log out',
-        icon: 'pi pi-sign-out',
+        icon: 'pi pi-fw pi-power-off',
         command: () => {
             window.location.href = '/logout';
         }
@@ -50,6 +50,11 @@ const items = ref([
     width: 80%;
     text-align: left;
     margin-left: 0em;
+}
+:deep(.p-menuitem-icon) {
+    width: 20%;
+    margin-left: 0em;
+    color: #000;
 }
 </style>
 
