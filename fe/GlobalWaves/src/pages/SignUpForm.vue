@@ -36,7 +36,7 @@
                <br />
                 <router-link to="log-in"> Log in here! </router-link>
             </div>
-            <Button label="Sign up" />
+            <Button label="Sign up" @click="goToHome()"/>
         </template>
     </Card>
 </div>
@@ -47,8 +47,14 @@ import Card from 'primevue/card';
 import Button from 'primevue/button';
 import InputGroup from 'primevue/inputgroup';
 import InputText from 'primevue/inputtext';
+import InputGroupAddon from 'primevue/inputgroupaddon';
+import router from '../router';
 </script>
-
+<script lang="ts">
+    function goToHome() : void {
+     router.push('../home');
+    }
+</script>
 <style scoped>
     .wrapper {
         display: flex;
@@ -58,7 +64,7 @@ import InputText from 'primevue/inputtext';
     }
     .p-card {
         width: 40em;
-        border-color: green;
+        border-color: rgb(162, 37, 187);
         border-style: solid;
         border-width: 3px;
         padding: 1em;
@@ -87,5 +93,7 @@ import InputText from 'primevue/inputtext';
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        background-color: #22be37;
+        text-align: center;
     }
 </style>
