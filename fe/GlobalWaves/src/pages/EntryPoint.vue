@@ -1,5 +1,4 @@
 <template>
-   <div class="all">
     <Card style="margin-top: 10em">
         <template #header>
             <h1 style=" text-align:center">
@@ -18,7 +17,6 @@
             </div>
         </template>
 </Card>
-</div>
 </template>
 
 <script setup lang="ts">
@@ -36,9 +34,6 @@ import router from '../router';
   </script>
 
 <style scoped>
-    .all {
-
-        }
     .p-card {
         top: 50%;
         width: 90%;
