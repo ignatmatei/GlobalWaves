@@ -16,6 +16,13 @@ const items = ref([
         }
     },
     {
+        label: 'Home',
+        icon: 'pi pi-fw pi-home',
+        command: () => {
+            window.location.href = '/home';
+        }
+    },
+    {
         label: 'Favourite songs',
         icon: 'pi pi-fw pi-heart',
         command: () => {
