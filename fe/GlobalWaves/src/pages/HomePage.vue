@@ -2,7 +2,9 @@
     <SearchBar />
     <div class="parent">
      <div class="child">
-    <UserMenu  />
+    <UserMenu  style = " width: 240%;
+    margin-top: 10em;
+    margin-left: 4em;" />
     </div>
     <div class="child">
         <h1 class="p-m-0" style="text-align: center; margin-top: 6.5em;">My unique playlists</h1>

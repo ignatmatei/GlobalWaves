@@ -1,6 +1,9 @@
 <template>
    <div class="card flex justify-content-center">
-        <Menu :model="items" />
+        <Menu :model="items" style="  border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    width: 30%;"/>
     </div>
    </template>
 
@@ -50,6 +53,9 @@ const items = ref([
 <script lang="ts">
 </script>
 <style scoped>
+.p-menu {
+    width: 80%;
+}
 :deep(.p-menuitem-text) {
     font-size: 1.5rem;
     font-weight: 60;
